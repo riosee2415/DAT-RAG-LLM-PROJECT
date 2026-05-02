@@ -1,0 +1,71 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyc
+*.pyd
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ─── Testing & Coverage ───────────────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+coverage/
+*.cover
+*.py,cover
+
+# ─── Type Checking ────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+
+# ─── Linting ──────────────────────────────────────────────────────────────────
+.ruff_cache/
+
+# ─── Distribution & Build ─────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+.eggs/
+MANIFEST
+
+# ─── Environment ──────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Database ─────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+alembic/versions/*.pyc
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Celery ───────────────────────────────────────────────────────────────────
+celerybeat-schedule
+celerybeat.pid
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+tmp/
+temp/
