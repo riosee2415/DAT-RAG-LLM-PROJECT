@@ -4,6 +4,9 @@ harness_commands/
 # ─── Claude Code (local settings only) ────────────────────────────────────────
 .claude/settings.local.json
 
+# ─── MCP config (contains API tokens — local only) ────────────────────────────
+.mcp.json
+
 # ─── Environment ──────────────────────────────────────────────────────────────
 .env
 .env.*
